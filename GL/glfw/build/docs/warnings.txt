@@ -1,0 +1,6 @@
+/home/bepartofyou/work/av/ffmpeg/mlt/melt/20171222/bin/glfw/include/GLFW/glfw3.h:4647: warning: argument 'joystick' of command @param is not found in the argument list of glfwSetJoystickUserPointer(int jid, void *pointer)
+/home/bepartofyou/work/av/ffmpeg/mlt/melt/20171222/bin/glfw/include/GLFW/glfw3.h:4647: warning: The following parameters of glfwSetJoystickUserPointer(int jid, void *pointer) are not documented:
+  parameter 'jid'
+/home/bepartofyou/work/av/ffmpeg/mlt/melt/20171222/bin/glfw/include/GLFW/glfw3.h:4673: warning: argument 'joystick' of command @param is not found in the argument list of glfwGetJoystickUserPointer(int jid)
+/home/bepartofyou/work/av/ffmpeg/mlt/melt/20171222/bin/glfw/include/GLFW/glfw3.h:4673: warning: The following parameters of glfwGetJoystickUserPointer(int jid) are not documented:
+  parameter 'jid'
