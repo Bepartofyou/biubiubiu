@@ -1,0 +1,19 @@
+#offscreen gengetopt file
+
+package "offscreen"
+version "0.0.0"
+purpose "purpose: Use openGL to rotate a overlay image without sawtooth which ffmpeg can produce "
+usage   "./offscreen -b back.png -f front.png "
+description "description: Bepartofyou is a handsome guy"
+
+
+option "backimg"    b "the back image" string required
+option "frontimg"   f "the front image" string required
+option "winwidth"   w   "windows  width, equal video  width" optional int default="640"
+option "winheight"  h   "windows height, equal video height" optional int default="480"
+option "framerate"  p "video frame rate" optional int default="25"
+option "duration"   d   "video play duration" optional int default="5"
+option "start"      s   "genenate image start number" optional int default="0"
+option "direction"  c   "rotate clock direction" flag off
+option "outpath"    o   "the output image file path" optional string default="./"
+
